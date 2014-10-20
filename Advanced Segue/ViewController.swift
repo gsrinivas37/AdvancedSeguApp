@@ -8,10 +8,14 @@
 
 import UIKit
 
+var rowCount = 0
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        println(rowCount)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

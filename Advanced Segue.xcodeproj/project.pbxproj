@@ -13,6 +13,7 @@
 		40BDA37519F4D5FF00EABFF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BDA37419F4D5FF00EABFF3 /* Images.xcassets */; };
 		40BDA37819F4D5FF00EABFF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40BDA37619F4D5FF00EABFF3 /* LaunchScreen.xib */; };
 		40BDA38419F4D5FF00EABFF3 /* Advanced_SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDA38319F4D5FF00EABFF3 /* Advanced_SegueTests.swift */; };
+		40BDA39219F4D77E00EABFF3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDA39119F4D77E00EABFF3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		40BDA37D19F4D5FF00EABFF3 /* Advanced SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced SegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BDA38219F4D5FF00EABFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BDA38319F4D5FF00EABFF3 /* Advanced_SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_SegueTests.swift; sourceTree = "<group>"; };
+		40BDA39119F4D77E00EABFF3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		40BDA36A19F4D5FF00EABFF3 /* Advanced Segue */ = {
 			isa = PBXGroup;
 			children = (
+				40BDA39119F4D77E00EABFF3 /* TableViewController.swift */,
 				40BDA36D19F4D5FF00EABFF3 /* AppDelegate.swift */,
 				40BDA36F19F4D5FF00EABFF3 /* ViewController.swift */,
 				40BDA37119F4D5FF00EABFF3 /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40BDA37019F4D5FF00EABFF3 /* ViewController.swift in Sources */,
+				40BDA39219F4D77E00EABFF3 /* TableViewController.swift in Sources */,
 				40BDA36E19F4D5FF00EABFF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
